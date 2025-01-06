@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+body {
+    font-family: "Poppins", sans-serif;
+    
+    
+}
+
+/* .main-div {
+   
+} */
+.row{
+    /* background-color: #fe302f; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.section-products {
+    padding: 80px 0 54px;
+    
+}
+
+.section-products .header {
+    margin-bottom: 50px;
+}
+
+.section-products .header h3 {
+    font-size: 1rem;
+    color: #fe302f;
+    font-weight: 500;
+}
+
+.section-products .header h2 {
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: #444444;
+}
+
+.section-products .single-product {
+    margin-bottom: 26px;
+}
+
+.single-product .part-1 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 290px;
+    max-height: 290px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.single-product .part-1::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transition: all 0.3s;
+}
+
+.section-products .single-product:hover .part-1::before {
+    transform: scale(1.2, 1.2) rotate(5deg);
+}
+.section-products #product-7 .part-1::before {
+    background: url("http://127.0.0.1:5500/Assets/fanta.png") no-repeat center;
+    background-size: contain;
+    transition: all 0.3s;
+}
+.section-products #product-5 .part-1::before {
+    background: url("http://127.0.0.1:5500/Assets/pepsi.png") no-repeat center;
+    background-size: contain;
+    transition: all 0.3s;
+}
+.section-products #product-6 .part-1::before {
+    background: url("http://127.0.0.1:5500/Assets/cocacola.png") no-repeat center;
+    background-size: contain;
+    transition: all 0.3s;
+}
+.section-products #product-1 .part-1::before {
+    background: url("https://5.imimg.com/data5/SELLER/Default/2024/3/401540402/VM/SY/CL/71899481/3.jpg") no-repeat center;
+    background-size: contain;
+    transition: all 0.3s;
+}
+
+.section-products #product-2 .part-1::before {
+    background: url("https://st.depositphotos.com/1008960/4874/i/950/depositphotos_48748195-stock-photo-ice-cold-can-of-red.jpg") no-repeat center;
+    background-size: contain;
+}
+
+.section-products #product-3 .part-1::before {
+    background: url("https://www.coca-cola.com/content/dam/onexp/us/en/brands/fresca/en_fresca_prod_grapefruit-citrus_12oz-can_750x750_v1.jpg") no-repeat center;
+    background-size: contain;
+}
+
+.section-products #product-4 .part-1::before {
+    background: url("https://cbx-prod.b-cdn.net/COLOURBOX53926406.jpg?width=800&height=800&quality=70") no-repeat center;
+    background-size: contain;
+}
+
+.section-products .single-product .part-1 .discount,
+.section-products .single-product .part-1 .new {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: black;
+    background-color: #fe302f;
+    padding: 2px 8px;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
+
+.section-products .single-product .part-1 .new {
+    left: 0;
+    background-color: yellow;
+}
+
+.section-products .single-product .part-1 button {
+    position: absolute;
+    bottom: -41px;
+    left: 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    opacity: 0;
+    transition: bottom 0.5s, opacity 0.5s;
+    
+}
+
+/* .section-products .single-product:hover .part-1 ul {
+    bottom: 30px;
+    opacity: 1;
+}
+
+.section-products .single-product .part-1 ul li {
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.section-products .single-product .part-1 ul li a {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 40px;
+    background-color: #ffffff;
+    color: #444444;
+    text-align: center;
+    box-shadow: 0 2px 20px rgb(50 50 50 / 10%);
+    transition: color 0.2s;
+} */
+
+.section-products .single-product .part-1 button a:hover {
+    color: #fe302f;
+}
+
+.section-products .single-product .part-2 .product-title {
+    font-size: 1rem;
+}
+
+.section-products .single-product .part-2 h4 {
+    display: inline-block;
+    font-size: 1rem;
+}
+
+.section-products .single-product .part-2 .product-old-price {
+    position: relative;
+    padding: 0 7px;
+    margin-right: 2px;
+    opacity: 0.6;
+}
+
+.section-products .single-product .part-2 .product-old-price::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #444444;
+    transform: translateY(-50%);
+}
+.single-product{
+    width: 200px;
+    align-items: baseline;
+    justify-content: center;
+}
+
+button{
+    font-size: 1vw;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    background-color: rgb(255, 149, 0);
+    padding: 0.5vw 1vw;
+    transition: color 0.2s, background-color 0.2s, transform 0.2s;
+    cursor: pointer; 
+    
+}
+button:hover {
+    color: rgb(255, 149, 0); /* Changes text color */
+    background-color: #883c0f;
+    transform: scale(1.1); /* Adds a slight zoom effect */
+}
