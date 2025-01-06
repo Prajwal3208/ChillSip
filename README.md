@@ -34,7 +34,7 @@ The Chill Sips website is a dynamic and user-friendly platform designed to showc
 **How to Use:**  
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/chill-sips-website.git
+   git clone https://github.com/Prajwal3208/ChillSip.git
    ```
 2. Open the project folder and launch the `index.html` file in your browser.
 
@@ -44,8 +44,10 @@ The Chill Sips website is a dynamic and user-friendly platform designed to showc
 - Integrate analytics to track user interactions.
 
 **Credits:**  
-Developed by [Your Name]. This project reflects a passion for creating intuitive and visually appealing web experiences. 
+Developed by [Prajwal Kadam]. This project reflects a passion for creating intuitive and visually appealing web experiences.
 
----
-
-Feel free to tweak the description or personalize it further for your GitHub repository! 😊
+**Resources**
+- Google
+- Bootstrap
+- chatgpt
+- youtube
