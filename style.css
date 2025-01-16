@@ -216,7 +216,8 @@ a:hover {
 #cocacola{
     top: -15%;
     position: absolute;
-    width: 60%;
+/*     a,m */
+    width: 40%;       
     left: 50%;
     transform: translate(-50%, 0%);
     transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
@@ -226,7 +227,8 @@ a:hover {
 #pepsi{
     top: -15%;
     position: absolute;
-    width: 85%;
+/*     jkda */
+    width: 45%;
     left: 50%;
     transform: translate(-50%, 0%);
     transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
