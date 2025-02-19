@@ -3,6 +3,8 @@
 
 #Refresh Your Moments 🍹
 
+link - https://prajwal3208.github.io/ChillSip/
+
 **Description:**  
 The Chill Sips website is a dynamic and user-friendly platform designed to showcase a cold drink shop's offerings and connect with customers. This project highlights an engaging design, smooth navigation, and a detailed presentation of the shop's history, products, and location. It aims to provide a refreshing online experience for visitors, making it easy to explore the shop's story, discover products, and find the shop's location.
 
